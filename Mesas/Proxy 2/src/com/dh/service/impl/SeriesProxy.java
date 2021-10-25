@@ -37,7 +37,7 @@ public class SeriesProxy implements SeriesInterface {
         if(getViews(series) > 5) {
             throw new SeriesUnavailable();
         }
-        
+
         return service.getSeries(series);
     }
 }

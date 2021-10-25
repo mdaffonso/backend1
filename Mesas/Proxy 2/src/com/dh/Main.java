@@ -9,6 +9,7 @@ import java.util.Collections;
 public class Main {
 
     public static void main(String[] args) throws SeriesUnavailable {
+
         ArrayList<String> series = new ArrayList<>();
         Collections.addAll(series,
                 "Breaking Bad",
@@ -20,6 +21,7 @@ public class Main {
                 "Breaking Bad",
                 "Breaking Bad",
                 "Breaking Bad");
+
         for(String title : series) {
             System.out.println(Series.watch(title));
         }
