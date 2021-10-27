@@ -24,7 +24,7 @@ public class Main {
         logger.info(numbers.getAverage().toString());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 	    Average numbers = new Average(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
         System.out.println(numbers.toString());
         generateLog(numbers);
