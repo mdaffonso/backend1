@@ -1,0 +1,13 @@
+[ 2021-10-27 09:22:00 ] [ INFO  ] [ Main:12 ] A whim away!
+[ 2021-10-27 09:25:51 ] [ INFO  ] [ Main:12 ] A whim away!
+[ 2021-10-27 09:25:51 ] [ WARN  ] [ Main:13 ] In the jungle
+[ 2021-10-27 09:25:51 ] [ ERROR ] [ Main:14 ] The mighty jungle
+[ 2021-10-27 09:26:14 ] [ INFO  ] [ Main:12 ] A whim away!
+[ 2021-10-27 09:26:14 ] [ WARN  ] [ Main:13 ] In the jungle
+[ 2021-10-27 09:26:14 ] [ ERROR ] [ Main:14 ] The mighty jungle
+[ 2021-10-27 09:26:14 ] [ FATAL ] [ Main:15 ] The lion sleeps tonight!
+[ 2021-10-27 09:30:15 ] [ INFO  ] [ Main:12 ] A whim away!
+[ 2021-10-27 09:30:15 ] [ WARN  ] [ Main:13 ] In the jungle
+[ 2021-10-27 09:30:15 ] [ ERROR ] [ Main:14 ] The mighty jungle
+[ 2021-10-27 09:30:15 ] [ FATAL ] [ Main:15 ] The lion sleeps tonight!
+[ 2021-10-27 09:30:15 ] [ DEBUG ] [ Main:16 ] A whiiii-iii-iii-iii-iiim-m-m away!
