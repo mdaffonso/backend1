@@ -7,18 +7,17 @@ public class Main {
 
     private static final Logger logger = Logger.getLogger(Average.class);
 
-    private static final void generateLog(Average numbers) {
+    private static final void generateLog(Average numbers) throws Exception {
         PropertyConfigurator.configure("log4j.properties");
+
         if (numbers.getLength() == 0) {
             logger.error("A lista não tem elementos");
-            throw new Error();
+            throw new Exception();
         }
 
         if (numbers.getLength() > 5) {
             logger.info("A lista tem mais de 5 números");
-        }
-
-        if (numbers.getLength() > 10) {
+        } else if (numbers.getLength() > 10) {
             logger.info("A lista tem mais de 10 números");
         }
 
