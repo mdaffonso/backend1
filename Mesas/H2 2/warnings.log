@@ -1,0 +1,235 @@
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] drop table if exists employee;
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] create table if not exists employee (id int primary key, name varchar(150) not null, email varchar(150) not null, favorite_color varchar(40), hobbies text);
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');
+[ 2021-10-29 09:12:07 ] [ ERROR ] [ Main:38 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] update employee set name = 'Xablauson Xavier' where id = '1';
+[ 2021-10-29 09:12:07 ] [ INFO  ] [ Main:36 ] delete from employee where name = 'Lerolero Abdul';
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+drop table if exists employee; [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+create table if not exists employee (id int primary key, name varchar(150) not null, email varchar(150) not null, favorite_color varchar(40), hobbies text); [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros'); [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null); [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+update employee set name = 'Xablauson Xavier' where id = '1'; [90002-200]
+[ 2021-10-29 09:13:47 ] [ ERROR ] [ Main:38 ] Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+delete from employee where name = 'Lerolero Abdul'; [90002-200]
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:14:14 ] [ ERROR ] [ Main:38 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:14:14 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:15:44 ] [ ERROR ] [ Main:39 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:15:44 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:18:24 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:18:24 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:18:24 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:18:24 ] [ ERROR ] [ Main:38 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:18:24 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:18:25 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:18:25 ] [ INFO  ] [ Main:36 ] false
+[ 2021-10-29 09:23:17 ] [ INFO  ] [ Main:37 ] stat0
+[ 2021-10-29 09:23:18 ] [ INFO  ] [ Main:37 ] stat1
+[ 2021-10-29 09:23:18 ] [ INFO  ] [ Main:37 ] stat2
+[ 2021-10-29 09:23:18 ] [ ERROR ] [ Main:39 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:23:18 ] [ INFO  ] [ Main:37 ] stat4
+[ 2021-10-29 09:23:18 ] [ INFO  ] [ Main:37 ] stat5
+[ 2021-10-29 09:23:18 ] [ INFO  ] [ Main:37 ] stat6
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:23:28 ] [ ERROR ] [ Main:39 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:23:28 ] [ INFO  ] [ Main:37 ] 
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,30 lastmatch=]
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,156 lastmatch=]
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,161 lastmatch=]
+[ 2021-10-29 09:28:07 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,135 lastmatch=]
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,61 lastmatch=]
+[ 2021-10-29 09:28:07 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values \('(.*)', region=0,51 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,30 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,156 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,161 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,135 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,61 lastmatch=]
+[ 2021-10-29 09:28:33 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'(.*)', region=0,51 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,30 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,156 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,161 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,135 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,61 lastmatch=]
+[ 2021-10-29 09:28:42 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=values .'.*', region=0,51 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,30 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,156 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,161 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,135 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,61 lastmatch=]
+[ 2021-10-29 09:29:01 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*', region=0,51 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,30 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,156 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,161 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,135 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,61 lastmatch=]
+[ 2021-10-29 09:29:09 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.*values .'.*',.* region=0,51 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ ERROR ] [ Main:46 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:32:23 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:44 ] true
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:33:05 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:44 ] true
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:33:05 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:44 ] java.util.stream.ReferencePipeline$Head@1b604f19
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:33:31 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:44 ] java.util.stream.ReferencePipeline$Head@39aeed2f
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:33:31 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:44 ] Optional.empty
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:44 ] Optional.empty
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:34:03 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:44 ] true
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:34:24 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:44 ] true
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:34:24 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:34:42 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,30 lastmatch=]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,156 lastmatch=]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:34:43 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,61 lastmatch=]
+[ 2021-10-29 09:34:43 ] [ INFO  ] [ Main:47 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,51 lastmatch=]
+[ 2021-10-29 09:35:06 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,161 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', 'correr atrás de carros');]
+[ 2021-10-29 09:35:06 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:35:06 ] [ INFO  ] [ Main:44 ] java.util.regex.Matcher[pattern=.+values \('(.+)',.+ region=0,135 lastmatch=insert into employee (id, name, email, favorite_color, hobbies) values ('2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br', null, null);]
+[ 2021-10-29 09:35:23 ] [ INFO  ] [ Main:44 ] java.util.stream.ReferencePipeline$Head@7dc7cbad
+[ 2021-10-29 09:35:23 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:35:23 ] [ INFO  ] [ Main:44 ] java.util.stream.ReferencePipeline$Head@675d3402
+[ 2021-10-29 09:35:36 ] [ INFO  ] [ Main:44 ] [Ljava.lang.Object;@457e2f02
+[ 2021-10-29 09:35:36 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:35:36 ] [ INFO  ] [ Main:44 ] [Ljava.lang.Object;@18be83e4
+[ 2021-10-29 09:36:01 ] [ ERROR ] [ Main:47 ] Index 1 out of bounds for length 0
+[ 2021-10-29 09:36:01 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:36:01 ] [ ERROR ] [ Main:47 ] Index 1 out of bounds for length 0
+[ 2021-10-29 09:36:11 ] [ ERROR ] [ Main:47 ] Index 0 out of bounds for length 0
+[ 2021-10-29 09:36:11 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:36:11 ] [ ERROR ] [ Main:47 ] Index 0 out of bounds for length 0
+[ 2021-10-29 09:38:26 ] [ ERROR ] [ Main:49 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:38:54 ] [ INFO  ] [ Main:44 ] 1', 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho
+[ 2021-10-29 09:38:54 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:38:54 ] [ INFO  ] [ Main:44 ] 2', 'Lerolero Abdul', 'leroleroabdul@uol.com.br
+[ 2021-10-29 09:39:05 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:39:44 ] [ INFO  ] [ Main:44 ] 1
+[ 2021-10-29 09:39:44 ] [ ERROR ] [ Main:47 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:39:44 ] [ INFO  ] [ Main:44 ] 2
+[ 2021-10-29 09:41:43 ] [ INFO  ] [ Main:45 ] rs3: columns: 5 rows: 1 pos: -1
+[ 2021-10-29 09:41:43 ] [ ERROR ] [ Main:48 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:41:43 ] [ INFO  ] [ Main:45 ] rs6: columns: 5 rows: 1 pos: -1
+[ 2021-10-29 09:41:56 ] [ INFO  ] [ Main:45 ] true
+[ 2021-10-29 09:41:56 ] [ ERROR ] [ Main:48 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:41:56 ] [ INFO  ] [ Main:45 ] true
+[ 2021-10-29 09:44:43 ] [ ERROR ] [ Main:58 ] No data is available [2000-200]
+[ 2021-10-29 09:44:43 ] [ ERROR ] [ Main:58 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:44:43 ] [ ERROR ] [ Main:58 ] No data is available [2000-200]
+[ 2021-10-29 09:45:36 ] [ ERROR ] [ Main:53 ] No data is available [2000-200]
+[ 2021-10-29 09:45:36 ] [ ERROR ] [ Main:53 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:45:36 ] [ ERROR ] [ Main:53 ] No data is available [2000-200]
+[ 2021-10-29 09:46:19 ] [ INFO  ] [ Main:51 ] Id: 1Nome:         Paulo Paulada PowerE-mail:       pppower@hotmail.comCor favorita: vermelhoHobbies:      correr atrás de carros
+[ 2021-10-29 09:46:19 ] [ ERROR ] [ Main:55 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:46:19 ] [ INFO  ] [ Main:51 ] Id: 2Nome:         Lerolero AbdulE-mail:       leroleroabdul@uol.com.brCor favorita: nullHobbies:      null
+[ 2021-10-29 09:46:45 ] [ INFO  ] [ Main:51 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 09:46:45 ] [ ERROR ] [ Main:55 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:46:45 ] [ INFO  ] [ Main:51 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 09:51:26 ] [ INFO  ] [ Main:51 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 09:51:26 ] [ ERROR ] [ Main:55 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:51:26 ] [ INFO  ] [ Main:51 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 09:52:06 ] [ INFO  ] [ Main:51 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 09:52:06 ] [ ERROR ] [ Main:55 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:52:06 ] [ INFO  ] [ Main:51 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 09:52:06 ] [ INFO  ] [ Main:51 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 09:52:40 ] [ DEBUG ] [ Main:51 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 09:52:40 ] [ ERROR ] [ Main:55 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 09:52:40 ] [ DEBUG ] [ Main:51 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 09:52:40 ] [ DEBUG ] [ Main:51 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:04:02 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:04:02 ] [ ERROR ] [ Main:70 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:04:02 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:04:02 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
