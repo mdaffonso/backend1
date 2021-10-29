@@ -38,7 +38,7 @@ public class Main {
 
                     Pattern pInsert = Pattern.compile(".+values \\('(\\d+)',.+");
                     Pattern pUpdate = Pattern.compile("update.+where id.+'(\\d)'.+");
-                    Pattern pDelete = Pattern.compile("delete.+where.(.+) = '(.+)'+");
+                    Pattern pDelete = Pattern.compile("delete.+where (.+) = '(.+)'.+");
                     Matcher matcher = pInsert.matcher(statement).matches()
                             ? pInsert.matcher(statement)
                             : pUpdate.matcher(statement);
@@ -46,7 +46,7 @@ public class Main {
                     Matcher delMatcher = pDelete.matcher(statement);
 
                     if (delMatcher.matches()) {
-                        rs = connection.createStatement().executeQuery("select * from employee where " + delMatcher.group(1) + " = '" + matcher.group(2) + "';");
+                        rs = connection.createStatement().executeQuery("select * from employee where " + delMatcher.group(1) + " = '" + delMatcher.group(2) + "';");
                     }
 
                     s.execute(statement);
@@ -65,7 +65,7 @@ public class Main {
                             logger.debug(display);
                         }
                     }
-                    
+
                 } catch (Exception e) {
                     logger.error(e.getMessage());
                 }

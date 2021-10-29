@@ -233,3 +233,99 @@ insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jo
 insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
 [ 2021-10-29 10:04:02 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
 [ 2021-10-29 10:04:02 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:10:41 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:10:41 ] [ ERROR ] [ Main:70 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:10:41 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:10:41 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:10:41 ] [ ERROR ] [ Main:70 ] No match found
+[ 2021-10-29 10:11:22 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:11:22 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:11:22 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:11:22 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:11:22 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:14:38 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:14:43 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:14:51 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:14:58 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:16:27 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:16:30 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:16:30 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:16:30 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:16:30 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:16:30 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:16:42 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:16:42 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:16:42 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:16:42 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:16:42 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:17:09 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:09 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:17:09 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:17:09 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:09 ] [ INFO  ] [ Main:49 ] e
+[ 2021-10-29 10:17:20 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:20 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:17:20 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:17:20 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:20 ] [ INFO  ] [ Main:49 ] delete from employee where name = 'Lerolero Abdul';
+[ 2021-10-29 10:17:40 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:40 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:17:40 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:17:40 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:40 ] [ INFO  ] [ Main:49 ] delete from employee where name = 'Lerolero Abdul';
+[ 2021-10-29 10:17:47 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:47 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:17:47 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:17:47 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:17:47 ] [ INFO  ] [ Main:49 ] name
+[ 2021-10-29 10:18:03 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:18:03 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:18:03 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:18:03 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:18:03 ] [ INFO  ] [ Main:49 ] name Lerolero Abdul
+[ 2021-10-29 10:18:17 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:18:17 ] [ ERROR ] [ Main:70 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:18:17 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:18:17 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:18:17 ] [ ERROR ] [ Main:70 ] No match found
+[ 2021-10-29 10:19:08 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:08 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:19:08 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:19:08 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:08 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:19:24 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:24 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:19:24 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:19:24 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:24 ] [ ERROR ] [ Main:71 ] No match found
+[ 2021-10-29 10:19:43 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:43 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:19:43 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:19:43 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:43 ] [ INFO  ] [ Main:49 ] delete from employee where name = 'Lerolero Abdul'; = Lerolero Abdul
+[ 2021-10-29 10:19:51 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:51 ] [ ERROR ] [ Main:71 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:19:51 ] [ DEBUG ] [ Main:66 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:19:51 ] [ DEBUG ] [ Main:66 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:19:51 ] [ INFO  ] [ Main:49 ] name = Lerolero Abdul
+[ 2021-10-29 10:20:06 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Paulo Paulada Power | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:20:06 ] [ ERROR ] [ Main:70 ] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLOYEE(ID) [1, 'Paulo Paulada Power', 'pppower@hotmail.com', 'vermelho', STRINGDECODE('correr atr\u00e1s de carros')]"; SQL statement:
+insert into employee (id, name, email, favorite_color, hobbies) values ('1', 'Jonas Imaginarium', 'jimagi@gmail.com', 'azul', 'jogos de pc, tocar bateria, salto em vara'); [23505-200]
+[ 2021-10-29 10:20:06 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
+[ 2021-10-29 10:20:06 ] [ DEBUG ] [ Main:65 ] Id: 1 | Nome: Xablauson Xavier | E-mail: pppower@hotmail.com | Cor favorita: vermelho | Hobbies: correr atrás de carros
+[ 2021-10-29 10:20:06 ] [ DEBUG ] [ Main:65 ] Id: 2 | Nome: Lerolero Abdul | E-mail: leroleroabdul@uol.com.br | Cor favorita: null | Hobbies: null
