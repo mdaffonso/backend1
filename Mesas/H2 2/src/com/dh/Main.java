@@ -30,12 +30,11 @@ public class Main {
 
         try {
             connection = getConnection();
+            Statement s = connection.createStatement();
+            ResultSet rs = null;
 
             for (String statement : statements) {
                 try {
-                    ResultSet rs = null;
-                    Statement s = connection.createStatement();
-
                     Pattern pInsert = Pattern.compile(".+values \\('(\\d+)',.+");
                     Pattern pUpdate = Pattern.compile("update.+where id.+'(\\d)'.+");
                     Pattern pDelete = Pattern.compile("delete.+where (.+) = '(.+)'.+");
