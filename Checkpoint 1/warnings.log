@@ -1,0 +1,37 @@
+[ 2021-11-08 09:31:13 ] [ ERROR ] [ H2Server:37 ] 
+[ 2021-11-08 09:32:09 ] [ ERROR ] [ H2Server:37 ] Table "DENTISTA" not found; SQL statement:
+INSERT INTO dentista (matricula, nome, sobrenome) VALUES (?, ?, ?); [42102-200]
+[ 2021-11-08 09:34:25 ] [ ERROR ] [ H2Server:37 ] Column "matricula" not found [42122-200]
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:132 ] Busca realizada no banco de dados com sucesso. Retornou 100 resultados.
+[ 2021-11-08 10:05:12 ] [ DEBUG ] [ H2Server:104 ] Busca realizada com sucesso no banco de dados. Encontrou: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:133 ] Busca realizada no banco de dados com sucesso. Retornou os seguintes resultados: 
+rs4: columns: 4 rows: 2 pos: 2
+[ 2021-11-08 10:08:29 ] [ DEBUG ] [ H2Server:104 ] Busca realizada com sucesso no banco de dados. Encontrou: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:136 ] Busca realizada no banco de dados com sucesso. Retornou os seguintes resultados: 
+Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+
+[ 2021-11-08 10:10:20 ] [ DEBUG ] [ H2Server:104 ] Busca realizada com sucesso no banco de dados. Encontrou:
+Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:45 ] Conectado ao banco de dados H2
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:72 ] Objeto inserido no banco de dados: Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:136 ] Busca realizada no banco de dados com sucesso. Retornou os seguintes resultados: 
+Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
+Dentist{id=2, nome='Matheus', sobrenome='Affonso', matricula='0123456'}
+
+[ 2021-11-08 10:10:26 ] [ DEBUG ] [ H2Server:104 ] Busca realizada com sucesso no banco de dados. Encontrou:
+Dentist{id=1, nome='Josias', sobrenome='Xablankton', matricula='0987654'}
