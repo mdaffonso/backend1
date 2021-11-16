@@ -28,7 +28,7 @@ public class H2Server implements IDAO<Patient> {
     private void setup() throws SQLException {
         List<String> tables = new ArrayList<>();
         Collections.addAll(tables,
-                "DROP TABLE IF EXISTS endereco;",
+                "DROP TABLE IF EXISTS estado;",
 
                 "CREATE TABLE IF NOT EXISTS estado (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, estado CHAR(2) NOT NULL);",
 
