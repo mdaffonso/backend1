@@ -91,11 +91,14 @@ public class H2Server implements IDAO<Patient> {
         stmt.setString(5, endereco.getEstado().toString());
         stmt.execute();
 
+
+
         return patient;
     }
 
     @Override
     public Patient update(Patient patient) {
+
         return null;
     }
 
