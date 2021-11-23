@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @RestController
@@ -47,9 +48,15 @@ public class ProductController {
     @PutMapping("{id}")
     public ResponseEntity<ProductEntity> edit(@RequestBody ProductEntity p) {
         Optional<ProductEntity> product = service.one(p.getId());
+
         if (product.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
+
+        if (!Objects.equals(product.get().getId(), p.getId())) {
+            return ResponseEntity.badRequest().build();
+        }
+
         p.setId(product.get().getId());
         try {
             return ResponseEntity.ok(p);
