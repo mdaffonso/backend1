@@ -1,0 +1,18 @@
+[ 2021-11-30 11:41:13 ] [ INFO  ] [ PatientController:60 ] Usuário tentou criar um novo registro de paciente
+[ 2021-11-30 11:41:28 ] [ INFO  ] [ PatientController:60 ] Usuário tentou criar um novo registro de paciente
+[ 2021-11-30 11:41:33 ] [ INFO  ] [ PatientController:25 ] Usuário listou pacientes
+[ 2021-11-30 11:41:40 ] [ INFO  ] [ DentistController:24 ] Usuário listou dentistas
+[ 2021-11-30 11:42:44 ] [ INFO  ] [ DentistController:59 ] Usuário tentou criar um novo registro de dentista
+[ 2021-11-30 11:43:48 ] [ INFO  ] [ DentistController:59 ] Usuário tentou criar um novo registro de dentista
+[ 2021-11-30 11:43:58 ] [ INFO  ] [ DentistController:59 ] Usuário tentou criar um novo registro de dentista
+[ 2021-11-30 11:44:20 ] [ INFO  ] [ PatientController:60 ] Usuário tentou criar um novo registro de paciente
+[ 2021-11-30 11:44:30 ] [ INFO  ] [ DentistController:24 ] Usuário listou dentistas
+[ 2021-11-30 11:44:33 ] [ INFO  ] [ DentistController:35 ] Usuário buscou dentista de id 2
+[ 2021-11-30 11:45:02 ] [ INFO  ] [ DentistController:74 ] Usuário tentou editar os dados de um paciente
+[ 2021-11-30 11:45:08 ] [ INFO  ] [ DentistController:24 ] Usuário listou dentistas
+[ 2021-11-30 11:53:31 ] [ INFO  ] [ DentistController:25 ] Usuário listou dentistas
+[ 2021-11-30 11:53:36 ] [ INFO  ] [ DentistController:36 ] Usuário buscou dentista de id 1
+[ 2021-11-30 11:53:41 ] [ INFO  ] [ PatientController:37 ] Usuário buscou paciente de id 1
+[ 2021-11-30 11:53:47 ] [ INFO  ] [ DentistController:36 ] Usuário buscou dentista de id 1
+[ 2021-11-30 11:53:51 ] [ INFO  ] [ DentistController:63 ] Usuário tentou criar um novo registro de dentista
+[ 2021-11-30 11:53:56 ] [ INFO  ] [ DentistController:36 ] Usuário buscou dentista de id 1
